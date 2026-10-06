@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="SSM Technology en Santander de Quilichao: patinetas eléctricas, motos para niños, motos eléctricas, electrodomésticos y tecnología. Visítanos en el local o escríbenos por WhatsApp.">
+
+    <title>SSM Technology | Innovación, conectividad y soluciones</title>
+
+    <!-- Logo en la pestaña del navegador -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <!-- Estilos nuevos del inicio (style.css se mantiene para las demás páginas) -->
+    <link rel="stylesheet" href="/inicio.css">
+
+    <!-- Iconos -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= BARRA SUPERIOR ================= -->
+
+    <div class="topbar">
+        <div class="container topbar-inner">
+            <p class="topbar-msg">
+                <i class="fas fa-location-dot"></i>
+                Visítanos en Santander de Quilichao, Cauca
+            </p>
+
+            <div class="socials">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/573103721710" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ================= ENCABEZADO ================= -->
+
+    <header class="header">
+
+        <div class="container header-main">
+
+            <a href="#inicio" class="logo">
+                <img src="/img/logo.png" alt="Logo SSM Technology" class="logo-img" width="56" height="56">
+                <span class="logo-text">SSM <em>TECHNOLOGY</em></span>
+            </a>
+
+            <div class="header-contact">
+                <i class="fab fa-whatsapp"></i>
+                <div>
+                    <span>Escríbenos</span>
+                    <a href="https://wa.me/573103721710" target="_blank" rel="noopener">+57 310 372 1710</a>
+                </div>
+            </div>
+
+            <button class="menu-button" id="menu-button" aria-label="Abrir menú" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+
+        </div>
+
+        <!-- Barra de categorías (sticky) -->
+        <div class="catbar">
+            <div class="container">
+                <nav class="nav" id="nav" aria-label="Principal">
+                    <a href="#inicio">Inicio</a>
+                    <a href="/patinetas.html">Patinetas</a>
+                    <a href="/motos.html">Motos para niños</a>
+                    <a href="/motoselectricas.html">Motos eléctricas</a>
+                    <a href="/electrodomesticos.html">Electrodomésticos</a>
+                    <a href="/tecnologia.html">Tecnología</a>
+                    <a href="#local">El local</a>
+                    <a href="#contacto" class="nav-button">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================= BANNER ================= -->
+
+        <section class="banner" id="inicio" aria-roledescription="carrusel" aria-label="Destacados">
+
+            <div class="slides">
+
+                <!-- Slide 1 -->
+                <article class="slide is-active">
+                    <img src="/img/panoramica.jpeg" alt="Interior del local de SSM Technology" class="slide-img" style="object-position: 50% 62%;">
+                    <div class="container slide-copy">
+                        <h1>Todo lo que buscas, en un solo local</h1>
+                        <p>Patinetas, motos, electrodomésticos y tecnología. Ven a verlos y pruébalos con nuestra asesoría.</p>
+                        <div class="slide-actions">
+                            <a href="#local" class="btn btn-primary">Cómo llegar</a>
+                            <a href="#categorias" class="btn btn-ghost">Ver categorías</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Slide 2 -->
+                <article class="slide">
+                    <img src="/img/motos-50.jpeg" alt="Motos para niños en exhibición" class="slide-img" style="object-position: 50% 58%;" loading="lazy">
+                    <div class="container slide-copy">
+                        <h1>Motos para niños, 2 y 4 tiempos</h1>
+                        <p>Varios colores y modelos listos para su primera aventura. Consulta por existencias.</p>
+                        <div class="slide-actions">
+                            <a href="/motos.html" class="btn btn-primary">Ver motos</a>
+                            <a class="btn btn-ghost cat-wa" data-categoria="motos para niños">Cotizar por WhatsApp</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Slide 3 -->
+                <article class="slide">
+                    <img src="/img/patinetas.jpeg" alt="Patinetas eléctricas Xiaomi en exhibición" class="slide-img" style="object-position: 50% 62%;" loading="lazy">
+                    <div class="container slide-copy">
+                        <h1>Patinetas eléctricas para moverte fácil</h1>
+                        <p>Comodidad y transporte diario con las mejores marcas. Pruébalas en el local.</p>
+                        <div class="slide-actions">
+                            <a href="/patinetas.html" class="btn btn-primary">Ver patinetas</a>
+                            <a class="btn btn-ghost cat-wa" data-categoria="patinetas eléctricas">Cotizar por WhatsApp</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Slide 4 -->
+                <article class="slide">
+                    <img src="/img/motos-electricas.jpeg" alt="Motos eléctricas en exhibición" class="slide-img" style="object-position: 50% 70%;" loading="lazy">
+                    <div class="container slide-copy">
+                        <h1>Motos eléctricas para tu día a día</h1>
+                        <p>Varios modelos y colores para ir al trabajo, a clase o a donde necesites.</p>
+                        <div class="slide-actions">
+                            <a href="/motoselectricas.html" class="btn btn-primary">Ver motos eléctricas</a>
+                            <a class="btn btn-ghost cat-wa" data-categoria="motos eléctricas">Cotizar por WhatsApp</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <button class="banner-arrow prev" type="button" aria-label="Anterior"><i class="fas fa-chevron-left"></i></button>
+            <button class="banner-arrow next" type="button" aria-label="Siguiente"><i class="fas fa-chevron-right"></i></button>
+
+            <div class="banner-dots" role="tablist" aria-label="Elegir diapositiva">
+                <button type="button" class="is-active" aria-label="Diapositiva 1"><span></span></button>
+                <button type="button" aria-label="Diapositiva 2"><span></span></button>
+                <button type="button" aria-label="Diapositiva 3"><span></span></button>
+                <button type="button" aria-label="Diapositiva 4"><span></span></button>
+            </div>
+
+        </section>
+
+
+        <!-- ================= CATEGORÍAS ================= -->
+
+        <section class="section categories" id="categorias">
+            <div class="container">
+
+                <div class="section-head">
+                    <h2>Categorías</h2>
+                    <p>Elige una y mira lo que tenemos.</p>
+                </div>
+
+                <div class="cat-grid">
+
+                    <a href="/patinetas.html" class="cat-tile">
+                        <img src="/img/patinetas.jpeg" alt="" loading="lazy" style="object-position: 50% 60%;">
+                        <div class="cat-label">
+                            <h3>Patinetas eléctricas</h3>
+                            <span>Ver más</span>
+                        </div>
+                    </a>
+
+                    <a href="/motos.html" class="cat-tile">
+                        <img src="/img/moto-28-naranja.jpeg" alt="" loading="lazy" style="object-position: 50% 55%;">
+                        <div class="cat-label">
+                            <h3>Motos 2 y 4 tiempos</h3>
+                            <span>Ver más</span>
+                        </div>
+                    </a>
+
+                    <a href="/motoselectricas.html" class="cat-tile">
+                        <img src="/img/motos-electricas.jpeg" alt="" loading="lazy" style="object-position: 40% 70%;">
+                        <div class="cat-label">
+                            <h3>Motos eléctricas</h3>
+                            <span>Ver más</span>
+                        </div>
+                    </a>
+
+                    <a href="/electrodomesticos.html" class="cat-tile">
+                        <img src="/img/electrodomesticos.jpeg" alt="" loading="lazy" style="object-position: 60% 60%;">
+                        <div class="cat-label">
+                            <h3>Electrodomésticos</h3>
+                            <span>Ver más</span>
+                        </div>
+                    </a>
+
+                    <a href="/tecnologia.html" class="cat-tile">
+                        <img src="/img/panoramica.jpeg" alt="" loading="lazy" style="object-position: 10% 45%;">
+                        <div class="cat-label">
+                            <h3>Tecnología</h3>
+                            <span>Ver más</span>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= DESTACADOS (CARRUSEL) ================= -->
+
+        <section class="section featured">
+            <div class="container">
+
+                <div class="section-head with-controls">
+                    <div>
+                        <h2>Destacados del local</h2>
+                        <p>Algunos de los productos que puedes ver y probar en persona.</p>
+                    </div>
+                    <div class="rail-controls">
+                        <button type="button" class="rail-btn" data-dir="-1" aria-label="Ver anteriores"><i class="fas fa-chevron-left"></i></button>
+                        <button type="button" class="rail-btn" data-dir="1" aria-label="Ver siguientes"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="rail" id="rail" tabindex="0" aria-label="Productos destacados">
+
+                <article class="product-card">
+                    <div class="product-media swap">
+                        <img src="/img/moto-f50-rosada.jpeg" alt="Moto F50 rosada de 4 tiempos" class="img-main" loading="lazy" style="object-position: 50% 70%;">
+                        <img src="/img/moto-f50-detalle.jpeg" alt="" class="img-alt" loading="lazy">
+                    </div>
+                    <div class="product-body">
+                        <h3>Moto F50 rosada 4 tiempos</h3>
+                        <p>Para niñas y niños que empiezan en el motociclismo.</p>
+                        <a class="wa-link"><i class="fab fa-whatsapp"></i> Consultar</a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-media">
+                        <img src="/img/moto-28-naranja.jpeg" alt="Moto número 28 naranja" loading="lazy" style="object-position: 50% 60%;">
+                    </div>
+                    <div class="product-body">
+                        <h3>Moto 28 naranja</h3>
+                        <p>Mini moto de cross con suspensión dorada y protectores.</p>
+                        <a class="wa-link"><i class="fab fa-whatsapp"></i> Consultar</a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-media">
+                        <img src="/img/motos-50.jpeg" alt="Moto 50 verde Red Bull" loading="lazy" style="object-position: 38% 62%;">
+                    </div>
+                    <div class="product-body">
+                        <h3>Moto 50 verde</h3>
+                        <p>Mini moto con llantas de cross y freno de disco.</p>
+                        <a class="wa-link"><i class="fab fa-whatsapp"></i> Consultar</a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-media">
+                        <img src="/img/patinetas.jpeg" alt="Patinetas eléctricas Xiaomi Scooter 6" loading="lazy" style="object-position: 40% 80%;">
+                    </div>
+                    <div class="product-body">
+                        <h3>Patinetas Xiaomi Scooter 6</h3>
+                        <p>Con suspensión y doble freno para el uso diario.</p>
+                        <a class="wa-link"><i class="fab fa-whatsapp"></i> Consultar</a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-media">
+                        <img src="/img/motos-electricas.jpeg" alt="Motos eléctricas urbanas" loading="lazy" style="object-position: 35% 75%;">
+                    </div>
+                    <div class="product-body">
+                        <h3>Motos eléctricas urbanas</h3>
+                        <p>Livianas, con canasta y en varios colores.</p>
+                        <a class="wa-link"><i class="fab fa-whatsapp"></i> Consultar</a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-media">
+                        <img src="/img/electrodomesticos.jpeg" alt="Lavadoras y estufas" loading="lazy" style="object-position: 70% 70%;">
+                    </div>
+                    <div class="product-body">
+                        <h3>Lavadoras y estufas</h3>
+                        <p>Electrodomésticos para el hogar de varias marcas.</p>
+                        <a class="wa-link"><i class="fab fa-whatsapp"></i> Consultar</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- ================= BENEFICIOS ================= -->
+
+        <section class="perks" aria-label="Por qué elegirnos">
+            <div class="container perks-grid">
+
+                <div class="perk">
+                    <i class="fas fa-award"></i>
+                    <div>
+                        <h3>Calidad</h3>
+                        <p>Productos seleccionados para lo que necesitas.</p>
+                    </div>
+                </div>
+
+                <div class="perk">
+                    <i class="fas fa-headset"></i>
+                    <div>
+                        <h3>Atención personalizada</h3>
+                        <p>Te ayudamos a elegir el indicado.</p>
+                    </div>
+                </div>
+
+                <div class="perk">
+                    <i class="fas fa-truck-fast"></i>
+                    <div>
+                        <h3>Entrega rápida</h3>
+                        <p>Recibe tu producto de forma segura.</p>
+                    </div>
+                </div>
+
+                <div class="perk">
+                    <i class="fas fa-shield-halved"></i>
+                    <div>
+                        <h3>Confianza</h3>
+                        <p>Transparencia y compromiso con cada cliente.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= EL LOCAL ================= -->
+
+        <section class="section local" id="local">
+            <div class="container local-grid">
+
+                <div class="gallery">
+                    <img src="/img/panoramica.jpeg" alt="Vista general del local" class="g-1" loading="lazy">
+                    <img src="/img/motos-local.jpeg" alt="Motos en exhibición" class="g-2" loading="lazy" style="object-position: 50% 70%;">
+                    <img src="/img/electrodomesticos.jpeg" alt="Zona de electrodomésticos" class="g-3" loading="lazy">
+                </div>
+
+                <div class="local-info">
+
+                    <img src="/img/hero.gif" alt="SSM Technology" class="local-logo" width="160" height="160" loading="lazy">
+
+                    <h2>Ven a conocernos</h2>
+                    <p>
+                        Tenemos todo en exhibición para que lo veas de cerca, lo compares
+                        y te asesoremos en persona. Si prefieres, escríbenos antes
+                        y te confirmamos qué hay disponible.
+                    </p>
+
+                    <ul class="info-list">
+                        <li>
+                            <i class="fas fa-location-dot"></i>
+                            <span>Santander de Quilichao, Cauca, Colombia</span>
+                        </li>
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                            <span>+57 310 372 1710</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>ssmtechnology00@gmail.com</span>
+                        </li>
+                    </ul>
+
+                    <div class="local-actions">
+                        <a href="https://www.google.com/maps/search/?api=1&query=SSM+Technology+Santander+de+Quilichao+Cauca"
+                            target="_blank" rel="noopener" class="btn btn-primary">
+                            <i class="fas fa-route"></i> Cómo llegar
+                        </a>
+                        <a href="https://wa.me/573103721710" target="_blank" rel="noopener" class="btn btn-outline">
+                            <i class="fab fa-whatsapp"></i> Escribir por WhatsApp
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= CONTACTO ================= -->
+
+        <section class="section contact" id="contacto">
+            <div class="container contact-grid">
+
+                <div class="contact-copy">
+                    <h2>¿Tienes alguna pregunta?</h2>
+                    <p>
+                        Cuéntanos qué buscas y te respondemos por WhatsApp
+                        con la información y la disponibilidad.
+                    </p>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Tu teléfono" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="4" placeholder="¿En qué podemos ayudarte?" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary form-button">
+                        Enviar por WhatsApp <i class="fas fa-paper-plane"></i>
+                    </button>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ================= PIE DE PÁGINA ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+                <a href="#inicio" class="logo">
+                    <img src="/img/logo.png" alt="Logo SSM Technology" class="logo-img" width="56" height="56">
+                    <span class="logo-text">SSM <em>TECHNOLOGY</em></span>
+                </a>
+                <p>Innovación, conectividad y soluciones.</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Productos</h4>
+                <a href="/patinetas.html">Patinetas eléctricas</a>
+                <a href="/motos.html">Motos 2 y 4 tiempos</a>
+                <a href="/motoselectricas.html">Motos eléctricas</a>
+                <a href="/electrodomesticos.html">Electrodomésticos</a>
+                <a href="/tecnologia.html">Tecnología</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Información</h4>
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Política de privacidad</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Contacto</h4>
+                <span>Santander de Quilichao, Cauca, Colombia</span>
+                <span>+57 310 372 1710</span>
+                <span>ssmtechnology00@gmail.com</span>
+
+                <div class="socials">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://wa.me/573103721710" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2026 SSM Technology. Todos los derechos reservados.</p>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!-- BOTÓN WHATSAPP -->
+
+    <a href="https://wa.me/573103721710" class="whatsapp" target="_blank" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+
+    <script src="/script.js"></script>
+    <script src="/inicio.js"></script>
+
+</body>
+
+</html>
